@@ -15,11 +15,18 @@ void draw()
  a.show();
  }
  }
+ 
+text("   ", 200, 590);
+String a = "Total: ";
+
+text (a  + sum , 200, 590 );
+ System.out.println (sum);
 }
 void mousePressed()
 {
   redraw();
  sum = 0;
+ 
 }
 class Die //models one single dice cube
 {
@@ -82,7 +89,6 @@ ellipse (myX + 30, myY + 20, 8, 8);
 
 
 sum = sum + value;
-text ("Total: " + (int)sum , 200, 590 );
 
 
 
