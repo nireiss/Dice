@@ -51,7 +51,7 @@ class Die //models one single dice cube
 value = ((int) (Math.random() * 6 + 1));
 fill (250);
 rect(myX, myY,40,40);
-fill(0);
+fill((int)(Math.random() * 250 + 1));
 if (value == 1){
 ellipse (myX + 20, myY + 20 ,8 , 8);
 }
@@ -85,12 +85,6 @@ ellipse (myX + 10, myY + 30, 8, 8);
 ellipse (myX + 30, myY + 10, 8, 8); 
 ellipse (myX + 30, myY + 20, 8, 8); 
 }
-
-
-
 sum = sum + value;
-
-
-
   }
 }
