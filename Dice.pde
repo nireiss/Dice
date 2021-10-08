@@ -18,7 +18,7 @@ void draw()
  
 text("   ", 200, 590);
 String a = "Total: ";
-
+sum = 0;
 text (a  + sum , 200, 590 );
  System.out.println (sum);
 }
